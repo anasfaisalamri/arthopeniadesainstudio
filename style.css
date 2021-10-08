@@ -1,0 +1,101 @@
+/* Navbar */
+.navbar {
+  background-color: #282826;
+}
+
+.navbar-brand {
+  color: gold !important;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+}
+
+.navbar-nav a:hover {
+  color: gold !important;
+}
+
+/* Carousel */
+.carousel-caption {
+  right: 0%;
+}
+
+.carousel-caption h3 {
+  color: gold;
+  font-size: 36px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-caption p {
+  color: rgb(255, 250, 225);
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+  background-color: gold;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+/* Hero */
+.hero .parallax {
+  background-image: url(assets/img/logo.png);
+  /* set a specific height */
+  height: 100%;
+  min-height: 500px;
+
+  /* create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .caption {
+  padding: 40px;
+}
+
+.caption h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.caption p {
+  font-size: 18px;
+}
+
+/* Service */
+.service i {
+  color: gold;
+  font-size: 60px;
+}
+
+/* Pricing */
+.pricing h4,
+i {
+  color: gold;
+}
+
+footer {
+  background-color: #282826;
+}
+
+/* Responsive Behavior */
+@media (max-width: 900px) {
+  .carousel-caption h3 {
+    color: gold;
+    font-size: 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  }
+
+  .carousel-caption p {
+    color: rgb(255, 250, 225);
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  }
+}

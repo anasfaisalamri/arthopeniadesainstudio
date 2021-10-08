@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icon-arthopenia.svg" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Arthopenia Design Studio</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand align-items-center" href="#"><img src="assets/icon-arthopenia.svg" style="width: 35px" class="me-2" alt="icon-arthopenia" />Arthopenia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+            <a class="nav-link me-2" href="#service">Services</a>
+            <a class="nav-link me-2" href="#portfolio">Portfolio</a>
+            <a class="nav-link me-2" href="#pricing">Pricing</a>
+            <a class="nav-link me-2" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade pt-5 d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel/1.jpg" class="d-block w-100" alt="1" />
+          <div class="carousel-caption text-capitalize text-center top-50 start-50 translate-middle d-none d-md-block">
+            <h3>bikin desgin yuk!</h3>
+            <p>buat usahamu makin menarik!</p>
+            <div class="dropdown d-sm-none d-md-block">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Bikin Sekarang!</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6285157734804" target="_blank">via whatsapp</a></li>
+                <li><a class="dropdown-item" href="https://shopee.co.id/philoshophy" target="_blank">via shopee</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/2.jpg" class="d-block w-100" alt="2" />
+          <div class="carousel-caption text-capitalize text-center top-50 start-50 translate-middle d-none d-md-block">
+            <h3>tonton video menarik kami</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <div class="d-sm-none d-md-block">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn">
+                  <a href="https://www.youtube.com/channel/UC5JtFjXbKd53DERbAgiFFFw" target="_blank" class="text-decoration-none text-black">Youtube</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="https://www.tiktok.com/@arthopenia?lang=id-ID" target="_blank" class="text-decoration-none text-black">Tiktok</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/3.jpg" class="d-block w-100" alt="3" />
+          <div class="carousel-caption text-capitalize text-center top-50 start-50 translate-middle d-none d-md-block">
+            <h3>kepoin portfolio kami</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="d-sm-none d-md-block">
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn">
+                  <a href="http://www.behance.net/sempaniaris8/projects" target="_blank" class="text-decoration-none text-black">Behance</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://dribbble.com/arissempani8" target="_blank" class="text-decoration-none text-black">Dribble</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://www.instagram.com/arthopenia/" target="_blank" class="text-decoration-none text-black">Pinterest</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://id.pinterest.com/arthopenia/_created/" target="_blank" class="text-decoration-none text-black">Instagram</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Hero -->
+    <section id="hero" class="hero bg-light d-block d-sm-none border-bottom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 p-0">
+            <div class="parallax"></div>
+          </div>
+          <div class="col-sm-6 text-capitalize caption">
+            <h3>bikin design yuk!</h3>
+            <p>bikin usaha kamu makin menarik</p>
+            <div class="dropdown d-sm-none d-md-block">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Bikin Sekarang!</button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=6285157734804" target="_blank">via whatsapp</a></li>
+                <li><a class="dropdown-item" href="https://shopee.co.id/philoshophy" target="_blank">via shopee</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 p-0">
+            <div class="parallax"></div>
+          </div>
+          <div class="col-sm-6 text-capitalize caption">
+            <h3>tonton video menarik kami</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn">
+                <a href="https://www.youtube.com/channel/UC5JtFjXbKd53DERbAgiFFFw" target="_blank" class="text-decoration-none text-black">Youtube</a>
+              </button>
+              <button type="button" class="btn">
+                <a href="https://www.tiktok.com/@arthopenia?lang=id-ID" target="_blank" class="text-decoration-none text-black">Tiktok</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 p-0">
+            <div class="parallax"></div>
+          </div>
+          <div class="col-sm-6 text-capitalize caption">
+            <h3>kepoin portfolio kami</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="text-center">
+              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+                <button type="button" class="btn">
+                  <a href="http://www.behance.net/sempaniaris8/projects" target="_blank" class="text-decoration-none text-black">Behance</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://dribbble.com/arissempani8" target="_blank" class="text-decoration-none text-black">Dribble</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://www.instagram.com/arthopenia/" target="_blank" class="text-decoration-none text-black">Pinterest</a>
+                </button>
+                <button type="button" class="btn">
+                  <a href="http://id.pinterest.com/arthopenia/_created/" target="_blank" class="text-decoration-none text-black">Instagram</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Hero -->
+
+    <!-- Services -->
+    <section id="service" class="service py-5 border-bottom">
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-12">
+            <h2>Services</h2>
+          </div>
+        </div>
+        <div class="row text-center text-capitalize justify-content-evenly mt-3">
+          <div class="col-lg-3 col-md-4">
+            <i class="bi-gem"></i>
+            <h4 class="mt-2">original design</h4>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, cupiditate.</p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <i class="bi-globe2"></i>
+            <h4 class="mt-2">ready to publish</h4>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, cupiditate.</p>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <i class="bi-heart"></i>
+            <h4 class="mt-2">made with love</h4>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, cupiditate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Services -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio bg-light py-5 border-bottom">
+      <div class="container py-5">
+        <div class="row justify-content-center pb-5">
+          <div class="col-md-8 col-sm-12 text-center">
+            <h2>Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates fuga magnam excepturi repellendus quod recusandae error. Sit, reprehenderit eligendi.</p>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn">
+                <a href="http://www.behance.net/sempaniaris8/projects" target="_blank" class="text-decoration-none text-black">Behance</a>
+              </button>
+              <button type="button" class="btn">
+                <a href="http://dribbble.com/arissempani8" target="_blank" class="text-decoration-none text-black">Dribble</a>
+              </button>
+              <button type="button" class="btn">
+                <a href="http://www.instagram.com/arthopenia/" target="_blank" class="text-decoration-none text-black">Pinterest</a>
+              </button>
+              <button type="button" class="btn">
+                <a href="http://id.pinterest.com/arthopenia/_created/" target="_blank" class="text-decoration-none text-black">Instagram</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/1.png" class="card-img-top" alt="1" />
+              <div class="card-body">
+                <h5 class="card-title">Dicksluiter</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/2.png" class="card-img-top" alt="2" />
+              <div class="card-body">
+                <h5 class="card-title">Cyborg Guppy</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/3.png" class="card-img-top" alt="3" />
+              <div class="card-body">
+                <h5 class="card-title">Penguin</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/4.png" class="card-img-top" alt="4" />
+              <div class="card-body">
+                <h5 class="card-title">King Farmer</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/5.png" class="card-img-top" alt="5" />
+              <div class="card-body">
+                <h5 class="card-title">Home Steak</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="assets/img/thumbs/6.png" class="card-img-top" alt="6" />
+              <div class="card-body">
+                <h5 class="card-title">Seafood Julid</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing py-5 border-bottom">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center text-capitalize mb-5">
+            <h2>pricing</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, qui incidunt, adipisci omnis inventore aperiam ducimus veritatis, quas minus velit animi temporibus maxime dignissimos perspiciatis.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body mx-4 my-5">
+                  <h3 class="card-title text-capitalize text-center">level baru buka</h3>
+                  <h4 class="card-subtitle text-center text-capitalize my-4 fs-2">rp250.00</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="benefit">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-check-circle-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Desain Orisinil</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-calendar-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Estimasi Pengerjaan 7 Hari Kerja</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-badge-hd-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Dapat File HD & Transparan</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-arrow-repeat fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">1 Kali Revisi Konsep</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-list-check fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">1 Opsi Desain Logo</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <div class="card-body mx-4 my-5">
+                  <h3 class="card-title text-capitalize text-center">level UMKM</h3>
+                  <h4 class="card-subtitle text-center text-capitalize my-4 fs-2">rp700.00</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="benefit">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-check-circle-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Desain Orisinil</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-calendar-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Estimasi Pengerjaan 7 Hari Kerja</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-vector-pen fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Dapat File Master & Vektor</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-badge-hd-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Dapat File HD & Transparan</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-arrow-repeat fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">3 Kali Revisi Konsep</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-list-check fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">3 Opsi Desain Logo</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-percent fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Bonus Pattern Bakground</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body mx-4 my-5">
+                  <h3 class="card-title text-capitalize text-center">level PT. / CV.</h3>
+                  <h4 class="card-subtitle text-center text-capitalize my-4 fs-2">rp1.400.00</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="benefit">
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-check-circle-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Desain Orisinil</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-calendar-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Estimasi Pengerjaan 7 Hari Kerja</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-vector-pen fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Dapat File Master & Vektor</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-badge-hd-fill fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Dapat File HD & Transparan</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-arrow-repeat fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Unlimited Revisi Konsep</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-list-check fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">5 Opsi Desain Logo</div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <div class="flex-shrink-0">
+                        <i class="bi-percent fs-1"></i>
+                      </div>
+                      <div class="flex-grow ms-3">Bonus Pattern Bakground, Motion Logo (max.5s)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Pricing -->
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-4">
+      <p>Created with <i class="bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/anasfaisalamri/" class="text-white fw-bold">Anas Faisal Amri</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
